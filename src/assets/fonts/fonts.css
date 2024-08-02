@@ -1,0 +1,21 @@
+@font-face {
+    font-family:bold ;
+    src: url(Panchang-Bold.otf);
+
+}
+
+@font-face {
+    font-family:regular ;
+    src: url(Panchang-Regular.otf);
+}
+
+@font-face {
+    font-family: extralight;
+    src: url(Panchang-Extralight.otf);
+}
+
+
+@font-face {
+    font-family: light;
+    src: url(Panchang-light.otf);
+}

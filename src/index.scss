@@ -1,0 +1,300 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.header{
+    display: flex;
+    gap: 75%;
+    padding-left: 30px;
+      .logo{
+        img{
+            width: 80px;
+        }
+      }
+      .text{
+        
+        img{
+         width: 40%; 
+         margin-left: 100px; 
+         position: relative;
+        }
+        h4{
+          position: absolute;
+          top:9px;
+          font-family: bold;
+          margin-left: 20px;
+          color: rgb(255, 255, 255);
+        }
+    }
+}
+
+
+
+
+.hero{
+    padding-top: 80px;
+    .top{
+        display: flex;
+        justify-content: center;
+        font-family: bold;
+        font-size: 40px;
+        .peacock{
+            margin-top: 30px;
+        }
+    }
+
+    .mid{
+        text-align: center;
+        padding-top: 10px;
+        font-family: bold;
+        .discover{
+            padding-top: 60px;
+            .line{
+                width: 5px;
+                height: 80px;
+                background-color:rgb(255, 255, 255);
+                margin-left: 50%;
+            }
+        }
+    }
+
+    .bottom{
+        text-align: center;
+        font-family: extralight;
+        padding-bottom: 70px;
+        padding-top: 150px;
+        
+        .heading{
+            display: flex;
+            justify-content: center;
+            font-family: bold;
+
+            img{
+                width: 20%;
+            }
+        }
+
+        .para{
+            width: 30%;
+            margin-left: 35%;
+        }
+    }
+
+}
+
+
+
+
+.join{
+    background-color: rgb(255, 255, 255);
+    font-family: regular;
+    .box1{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(128, 34, 28);
+    }
+
+    .box2{
+        
+        text-align: center;
+        width: 45%;
+        margin-left: 27%;
+        color: rgb(0, 0, 0);
+        padding-top: 80px;
+        
+      .text{
+        margin-top: 60px;
+        text-align: center;
+        img{
+           width: 15%;
+           margin-left: 120px; 
+        }
+
+        h4{
+            position: relative;
+            bottom: 70px;
+            font-family: bold;
+        }
+      }  
+        
+}
+
+}
+
+
+
+.runway{
+    padding-top: 150px;
+    padding-bottom: 150px;
+   .peacock{
+    height: 359px;
+    background-image: url(../src/assets/images/Peacock.png);
+   }
+
+    .run{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 140px;
+        padding-bottom: 140px;
+        img{
+            width: 400px;
+        }
+    }
+}
+
+
+
+
+
+
+
+.contribute{
+    padding-top: 60px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+     img{
+        width: 400px;
+     }
+
+     p{
+        color: rgb(255, 69, 56);
+        font-family: regular;
+        margin-bottom: 30px;
+     }
+    
+    textarea{
+        background-color: rgb(204, 204, 204);
+        border: none;
+        width: 45%;
+        height: 250px;
+        padding-top: 20px;
+        padding-left: 20px;
+
+        
+     }
+
+    .btn{
+        background-color: rgb(255, 255, 255);
+        border: none;
+        margin-left: 4px;
+        
+        margin-top: 40px;
+
+        img{
+            width: 100px;
+            margin-left: 50px;
+        }
+        h4{
+            position: relative;
+            bottom: 65px;
+            color: rgb(0, 0, 0);
+            font-family: bold;
+        }
+    }
+}
+
+
+
+.JohnDoe{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    .pic{
+        width: 600px;
+    }
+    .johnDoe{
+        display: flex;
+        gap: 10%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+
+        h4{
+            font-family: bold;
+        }
+        p{
+            font-family: regular;
+            color: rgb(255, 69, 56);
+            font-size: 10px;
+        }
+    }
+}
+
+
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../src/assets/images/footer.png);
+    padding: 40px;
+    height: 30vh;
+    
+    .lg{
+        width: 190px;
+        margin-bottom: 50px;
+    }
+    .followUs{
+        margin-top: 50px;
+        h5{
+            color: rgb(0, 0, 0);
+            font-family: bold;
+        }
+        img{
+            margin-left: 20px;
+            width: 20px;
+        }
+    }
+}
+
+
+
+
+.mint{
+    text-align: center;
+    font-family: regular;
+    img{
+       width: 400px;
+       margin-top: 50px;
+    }
+
+    .tabs{
+         color: rgb(255, 69, 56);
+         margin-top: 50px;
+        button{
+            background-color: rgb(45, 45, 45);
+            color: rgb(255, 255, 255);
+            font-family: regular;
+            width: 40%;
+            height: 50px;
+            border: none;
+        }
+    }
+
+    .mint-btn{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: 350px;
+        margin-top: 5px;
+        
+        img{
+         width: 10%; 
+         margin-left: 100px; 
+         
+        }
+        h4{
+          position: absolute;
+          margin-left: 50px ;
+          font-family: bold;
+          font-family: regular;
+          color: rgb(255, 255, 255);
+          top: 55px;
+        }
+    }
+  
+}
+
